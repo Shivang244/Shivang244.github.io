@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivang Kohli - Software Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shapes"> 
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">SK</div>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hey there! 👋</p>
+                <h1>I'm <span class="name">Shivang Kohli</span></h1>
+                <div class="title">Full Stack Developer & AI Enthusiast</div>
+                <div class="typing-text">
+                    <span id="typingText"></span><span class="cursor">|</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                    <a href="Shivang_Kohli_Resume.pdf" class="btn btn-secondary" target="_blank">
+                        <i class="fas fa-file-pdf"></i> Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-pic-container">
+                    <div class="profile-pic">
+                        <i class="fas fa-user"></i>
+                        <!-- Replace with your image: <img src="your-image.jpg" alt="Shivang Kohli" style="width: 100%; height: 100%; object-fit: cover;"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="scroll-animate">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p class="about-text">
+                I'm a Software Developer II at Morgan Stanley with a passion for building innovative solutions that make a real impact. 
+                With a strong foundation in full-stack development and a growing expertise in AI/ML, I love tackling complex problems 
+                and turning ideas into reality. From automating PII analysis to building recommendation systems, I thrive on challenges 
+                that push the boundaries of what's possible with technology.
+            </p>
+            <p class="about-text">
+                When I'm not coding, you'll find me exploring the latest in AI, contributing to open-source projects, or participating 
+                in hackathons. I believe in continuous learning and am always excited to work on projects that combine creativity with 
+                technical excellence.
+            </p>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">LangChain</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> DevOps & Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="scroll-animate">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-timeline">
+            <div class="experience-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-title">Software Developer II</div>
+                            <div class="experience-company">Morgan Stanley</div>
+                        </div>
+                        <div class="experience-date">July 2023 - Present</div>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Built Spring Boot REST application for automated 3-layered PII analysis, adopted by 20+ teams</li>
+                            <li>Implemented contextual agentic RAG pipeline reducing data fetch operations by 95%</li>
+                            <li>Processed 27M+ user events to build Next Action Recommendation model, improving efficiency by 33%</li>
+                            <li>Migrated UI applications from Angular 8 to Angular 19, ensuring maintainability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-title">Technology Analyst Intern</div>
+                            <div class="experience-company">Morgan Stanley</div>
+                        </div>
+                        <div class="experience-date">Jan 2023 - Jun 2023</div>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Developed email routing bot using Rasa and BERT, reducing resolution time by 70%</li>
+                            <li>Extended solution into RAG chatbot using LangChain and GPT-3.5</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-title">SDE Intern</div>
+                            <div class="experience-company">Gravitas.ai</div>
+                        </div>
+                        <div class="experience-date">Feb 2021 - May 2021</div>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Developed chatbot using Python and GPT-2, deployed on AWS Elastic Beanstalk</li>
+                            <li>Spearheaded GPT-3 implementation with multi-turn context-awareness</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="scroll-animate">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">Le Tour</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">Stripe</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <p class="project-description">
+                        A dynamic travel booking platform to locate, plan and book trips at top tourist hotspots. 
+                        Features authentication, payment integration, and optimized loading times with sorting and filtering capabilities.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">AskIPL Bot</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">AWS Lex</span>
+                        <span class="tech-badge">Lambda</span>
+                        <span class="tech-badge">Amazon Athena</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <p class="project-description">
+                        AI-powered chatbot for IPL cricket statistics with contextual memory for seamless multi-turn conversations. 
+                        Leverages AWS services for NLP, backend logic, and efficient data queries.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-header">
+                    <h3 class="project-title">RAG Email Assistant</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">LangChain</span>
+                        <span class="tech-badge">GPT-4</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <p class="project-description">
+                        Intelligent email routing and response system that reduced manual processing by 70%. 
+                        Features intent recognition and automated action item generation using advanced NLP.
+                    </p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="scroll-animate">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <p class="contact-text">
+                I'm always excited to connect with fellow developers, discuss new opportunities, 
+                or just have a chat about the latest in tech! Feel free to reach out.
+            </p>
+            <div class="social-links">
+                <a href="https://github.com/shivang244" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/shivang-kohli-6a4226192" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:shivangkohli09@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+919873655268" class="social-link">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>shivangkohli09@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+91 9873655268</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Bengaluru, Karnataka</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Shivang Kohli. Built with passion and lots of ☕</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
