@@ -51,7 +51,7 @@
                     <a href="#contact" class="btn btn-primary">
                         <i class="fas fa-envelope"></i> Get In Touch
                     </a>
-                    <a href="Shivang_Kohli_Resume.pdf" class="btn btn-secondary" target="_blank">
+                    <a href="https://drive.google.com/file/d/1c_PfTb0nb3iEzvJ6k957_wEed0AYSl39/view?usp=drivesdk" class="btn btn-secondary" target="_blank">
                         <i class="fas fa-file-pdf"></i> Resume
                     </a>
                 </div>
@@ -59,8 +59,9 @@
             <div class="hero-image">
                 <div class="profile-pic-container">
                     <div class="profile-pic">
-                        <i class="fas fa-user"></i>
-                        <!-- Replace with your image: <img src="your-image.jpg" alt="Shivang Kohli" style="width: 100%; height: 100%; object-fit: cover;"> -->
+                        <i class="fas fa-user">
+                            <img src="static/Me.jpg" alt="Shivang Kohli" style="width: 100%; height: 100%; object-fit: cover;">
+                        </i>
                     </div>
                 </div>
             </div>
@@ -72,16 +73,17 @@
         <h2 class="section-title">About Me</h2>
         <div class="about-content">
             <p class="about-text">
-                I'm a Software Developer II at Morgan Stanley with a passion for building innovative solutions that make a real impact. 
-                With a strong foundation in full-stack development and a growing expertise in AI/ML, I love tackling complex problems 
-                and turning ideas into reality. From automating PII analysis to building recommendation systems, I thrive on challenges 
-                that push the boundaries of what's possible with technology.
+                I'm a Software Engineer with experience across backend systems, AI integration, and automation. Currently at Morgan Stanley, I've developed robust APIs, built scalable data solutions using SpringBoot and Kafka and engineered RAG pipelines using LangChain and GPT-4o. 
+                I’ve also led automation initiatives that improved deployment efficiency and reduced resolution times, while leveraging DevOps tools like Docker and CI/CD pipelines to ensure fast, reliable delivery across environments.
             </p>
             <p class="about-text">
+                As a part of the Prime Brokerage Tech team at Morgan Stanley, I work on building robust, high-impact systems that directly serve our institutional clients. The fast-paced nature of financial services has taught me to prioritise reliability, performance, and user experience - especially when working on tools that support real-time decision-making and regulatory compliance.
+            </p>
+            <!-- <p class="about-text">
                 When I'm not coding, you'll find me exploring the latest in AI, contributing to open-source projects, or participating 
                 in hackathons. I believe in continuous learning and am always excited to work on projects that combine creativity with 
                 technical excellence.
-            </p>
+            </p> -->
             <div class="skills-container">
                 <div class="skill-category">
                     <h3><i class="fas fa-code"></i> Languages</h3>
@@ -139,8 +141,10 @@
                     </div>
                     <div class="experience-description">
                         <ul>
-                            <li>Built Spring Boot REST application for automated 3-layered PII analysis, adopted by 20+ teams</li>
+                            <li>Built a Spring Boot REST service for capturing live client data and automating multi-layered PII analysis, adopted by 20+ teams.</li>
+                            <li>Developed an Angular dashboard to visualize demo scenarios, streamlining client-facing workflows and usability.</li>
                             <li>Implemented contextual agentic RAG pipeline reducing data fetch operations by 95%</li>
+                            <li>Implemented a reporting service using Spring Boot, REST to generate customized scheduled reports, powering 10+ client-facing webapps processing 1,000+ reports daily.</li>
                             <li>Processed 27M+ user events to build Next Action Recommendation model, improving efficiency by 33%</li>
                             <li>Migrated UI applications from Angular 8 to Angular 19, ensuring maintainability</li>
                         </ul>
@@ -158,8 +162,25 @@
                     </div>
                     <div class="experience-description">
                         <ul>
-                            <li>Developed email routing bot using Rasa and BERT, reducing resolution time by 70%</li>
+                            <li>Developed email routing bot using Rasa and BERT, to perform intent-entity recognition from 100+ emails every week, reducing resolution time by 70%.</li>
                             <li>Extended solution into RAG chatbot using LangChain and GPT-3.5</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-title">Summer Technology Analyst Intern</div>
+                            <div class="experience-company">Morgan Stanley</div>
+                        </div>
+                        <div class="experience-date">May 2022 - Jul 2022</div>
+                    </div>
+                    <div class="experience-description">
+                        <ul>
+                            <li>Streamlined client data distribution from numerous vendors to numerous business units in the firm using Kafka, Springboot.</li>
+                            <li>Revamped legacy monolithic design to microservice architecture improving performance by 30%.</li>
                         </ul>
                     </div>
                 </div>
@@ -185,7 +206,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="scroll-animate">
+    <!-- <section id="projects" class="scroll-animate">
         <h2 class="section-title">Projects</h2>
         <div class="projects-grid">
             <div class="project-card">
@@ -233,7 +254,7 @@
                 <div class="project-header">
                     <h3 class="project-title">RAG Email Assistant</h3>
                     <div class="project-tech">
-                        <span class="tech-badge">LangChain</span>
+                        <span class="tech-i badge">LangChain</span>
                         <span class="tech-badge">GPT-4</span>
                         <span class="tech-badge">Python</span>
                     </div>
@@ -249,7 +270,80 @@
                 </div>
             </div>
         </div>
+    </section> -->
+        <!-- ...existing code... -->
+    <section id="projects" class="scroll-animate">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-list">
+            <!-- Project 1 -->
+            <div class="project-row">
+                <div class="project-image">
+                    <img src="static/tourpage1.jpeg" alt="Le Tour Screenshot">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Le Tour</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">Stripe</span>
+                    </div>
+                    <p class="project-description">
+                        A dynamic travel booking platform to locate, plan and book trips at top tourist hotspots. 
+                        Features authentication, payment integration, and optimized loading times with sorting and filtering capabilities.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Shivang244/LeTour" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-row reverse">
+                <div class="project-image">
+                    <img src="static/bot_1.jpeg" alt="AskIPL Bot Screenshot">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">AskIPL Bot</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">AWS Lex</span>
+                        <span class="tech-badge">Lambda</span>
+                        <span class="tech-badge">Amazon Athena</span>
+                    </div>
+                    <p class="project-description">
+                        AI-powered chatbot for IPL cricket statistics with contextual memory for seamless multi-turn conversations. 
+                        Leverages AWS services for NLP, backend logic, and efficient data queries.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Shivang244/MARS-Chatbot" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://iamr-kumar.github.io/mars-chatbot/" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-row">
+                <div class="project-image">
+                    <img src="static/dev-connector.webp" alt="DevConnector Screenshot">
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Dev Connector</h3>
+                    <div class="project-tech">
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">Socket.io</span>
+                    </div>
+                    <p class="project-description">
+                        A Social Networking website for developers and Free Lancers to connect to their peers, share project ideas, organize events and chat among themselves.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Shivang244/DevConnector-main/tree/master" class="project-link"><i class="fab fa-github"></i> Code</a>
+                        <a href="https://dev-connector-rm101.herokuapp.com/" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- ...existing code... -->
 
     <!-- Contact Section -->
     <section id="contact" class="scroll-animate">
@@ -292,7 +386,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>© 2025 Shivang Kohli. Built with passion and lots of ☕</p>
+        <p>© 2024 Shivang Kohli. Built with passion and lots of ☕</p>
     </footer>
 
     <script src="script.js"></script>
